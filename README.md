@@ -3,9 +3,6 @@
 ## Project Overview
 This project aims to enhance the predictive capabilities of a private space launch company by determining the factors that influence the successful landing of the Falcon 9 first stage by leveraging extensive data collection from sources such as the SpaceX API and historical launch records from Wikipedia.
 
-we performed rigorous data wrangling and exploratory data analysis (EDA) to ensure data quality and uncover critical insights. Key variables affecting landing success were identified and analyzed through SQL querying and feature engineering, leading to a deeper understanding of the launch dynamics.
-Machine learning techniques, including SVM, classification trees, and logistic regression, were employed to build robust predictive models. An interactive dashboard application, developed using Plotly Dash, provides real-time visual analytics, enabling stakeholders to explore launch data dynamically. The analysis revealed that optimizing launch site selection and understanding payload characteristics significantly impact success rates. These insights offer strategic guidance for future launches, potentially reducing costs and increasing the competitive advantage of the company in the space launch market.
-
 ### Dataset Used
 Data was collected from multiple sources, including the SpaceX API and historical launch records from Wikipedia. Data was retrieved using API requests and web scraping techniques with BeautifulSoup.
 
@@ -37,6 +34,9 @@ SQL:
 10. Rank the count of landing outcomes (such as Failure (drone ship) or Success (ground pad)) between the date 2010-06-04 and 2017-03-20, in descending order
 
 ### Results
+- Generated a site map with markers and color-coded clusters to visualize launch sites, classified success/failure, and calculated and visualized distances to the nearest coastline, highway, and city for enhanced analysis.
+- Built a dashboard with dropdown options for each launch site, displaying a pie chart of success/failure percentages and a summary chart for all sites, along with a slider-controlled scatter plot showing booster version success rates based on payload mass.
+
 <img width="868" alt="Launch Site Map with Class Markers" src="https://github.com/user-attachments/assets/80a1e7ee-665d-4fbc-b69a-689754bd4819">
 <img width="874" alt="Launch Site Proximity to nearest City" src="https://github.com/user-attachments/assets/5e8d3485-4244-4a45-9286-764c63f33bb5">
 <img width="976" alt="Pie Chart showing Success Contribution of All Sites" src="https://github.com/user-attachments/assets/8036002f-8c44-497c-9c29-74e956fcb89f">
