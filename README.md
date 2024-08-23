@@ -8,6 +8,7 @@ Data was collected from multiple sources, including the SpaceX API and historica
 
 ### Tools
 - JupyterLab Notebook
+- SQL
 
 ### Data cleaning/preprocessing
 Data wrangling techniques such as cleaning, formatting, and converting data into a suitable structure for analysis were applied.
